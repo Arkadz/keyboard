@@ -1,0 +1,39 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "virtual-keyboard rsschool-2022Q1",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/arkadz-JSFE2022Q1.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "rsschool",
+    "rss",
+    "2022Q1",
+    "virtual-keyboard"
+  ],
+  "author": "Shardakou Arkadz <penkratpavel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/arkadz-JSFE2022Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/arkadz-JSFE2022Q1#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
